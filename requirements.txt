@@ -1,0 +1,2 @@
+# These are the mandatory packages without specific versionsz
+ursina
