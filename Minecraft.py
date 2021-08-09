@@ -1,6 +1,7 @@
 # ctrl + b to run in Sublime Text
 from ursina import *
 
+# here i control the X and Y axes with the WASD keys.
 def update():
 	if held_keys['a']:
 		test.x  -= 4 * time.dt
