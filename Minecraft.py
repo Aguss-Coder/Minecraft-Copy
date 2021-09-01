@@ -38,6 +38,7 @@ class Voxel(Button):
 			highlight_color = color.rgb(200,200,200),
 			scale = 0.5)
 
+# add or remove a block
 	def input(self,key):
 		if self.hovered:
 			if key == 'right mouse down':
@@ -51,6 +52,7 @@ class Voxel(Button):
 				punch_sound.play()
 				destroy(self)
 
+# Sky Texture
 class Sky(Entity):
 	def __init__(self):
 		super().__init__(
@@ -60,6 +62,7 @@ class Sky(Entity):
 			scale = 150,
 			double_sided = True)
 
+# Hand Texture
 class Hand(Entity):
 	def __init__(self):
 		super().__init__(
